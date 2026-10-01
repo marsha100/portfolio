@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+
+<body>
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">楊孟馨作品集</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">關於我</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">影音</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="#">Pricing</a> -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            作品分享
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./平面設計.html">平面設計</a></li>
+                            <li><a class="dropdown-item" href="#">手工藝品</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 輪播 -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/夕陽下的人犬深情相依.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Photo1</h5>
+                    <p>光落在你眼裡的那天</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/狗淋雨特寫.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Photo2</h5>
+                    <!-- <p>這是第二個景點</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/白天流浪特寫圖.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Photo3</h5>
+                    <!-- <p>這是第三個景點</p> -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- 訊息列 -->
+    <div class="alert mt-3 mx-3 alert-primary" role="alert">
+        A simple primary alert—check it out!
+    </div>
+    <div class="alert mt-3 mx-3 alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+    </div>
+    <div class="alert mt-3 mx-3 alert-success" role="alert">
+        A simple success alert—check it out!
+    </div>
+
+    <!-- 卡片元件 -->
+    <div class="mx-3">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-3 mb-3">
+                <div class="card" style="">
+                    <img src="./images/封面照無字版.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                            🎬《光落在你眼裡的那天》
+                            The Day Light Fell Into Your Eyes</p>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=xDBQLl5_jX4"
+                            class="btn btn-primary w-100">Go
+                            somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 mb-3">
+                <div class="card" style="">
+                    <img src="./images/慕斯商品圖1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">WordPress購物網站</h5>
+                        <p class="card-text">架設包含金流物流的網站
+                        </p>
+                        <a target="_blank" href="./Home - FURRY DAILY.html" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="card" style="">
+                    <!-- <img src="./images org/商品圖影片.mp4" class="card-img-top" alt="..."> -->
+
+                    <video controls autoplay>
+                        <source src="./images org/商品圖影片.mp4" type="video/mp4">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title">商品影片</h5>
+                        <p class="card-text">介紹商品短影片</p>
+                        <a target="_blank" href="#" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="card" style="">
+                    <img src="./images/打扮中.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">臉書粉絲專頁</h5>
+                        <p class="card-text">毛球日和專案粉專</p>
+                        <a target="_blank" href="https://www.facebook.com/people/%E6%AF%9B%E7%90%83%E6%97%A5%E5%92%8C-FurryDaily/61594021906678/" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 版權聲明 -->
+    <footer class="mx-3">
+        <hr>
+        <p class="float-start">
+            &copy;2026.09 狗狗旅行社
+            <a href="#">隱私權</a>
+            <a href="#">聯絡我們</a>
+        </p>
+        <p class="float-end">
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
+
+    <script src="./js/bootstrap.js"></script>
+
+</body>
+
+</html>
